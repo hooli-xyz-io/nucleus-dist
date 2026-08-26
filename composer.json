@@ -1,0 +1,27 @@
+{
+  "name": "nucleus/nucleus",
+  "description": "Nucleus Framework - Next-Gen PHP Framework with Flux Engine",
+  "type": "project",
+  "keywords": ["framework", "nucleus", "flux", "php", "template-engine"],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Core\\": "core/"
+    },
+    "files": [
+      "core/support/Helpers.php"
+    ]
+  },
+  "bin": [
+    "nucleus"
+  ],
+  "scripts": {
+    "post-autoload-dump": [
+      "@php -r \"echo 'Nucleus Framework autoload refreshed\\n';\""
+    ]
+  }
+}

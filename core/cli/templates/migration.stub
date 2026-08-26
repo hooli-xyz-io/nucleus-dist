@@ -1,0 +1,21 @@
+<?php
+
+use Core\Database\Migration;
+use Core\Database\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('{{table}}', function ($table) {
+
+            $table->id();
+
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('{{table}}');
+    }
+};

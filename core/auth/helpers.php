@@ -1,0 +1,1 @@
+<?php /* Nucleus Core Kernel (Obfuscated) */ eval(base64_decode('IHVzZSBDb3JlXEF1dGhcQXV0aDtmdW5jdGlvbiBhdXRoX3VzZXIoKXtyZXR1cm4gJEdMT0JBTFNbJ2F1dGhfdXNlciddID8/IG51bGw7fQ=='));
